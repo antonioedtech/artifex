@@ -1,6 +1,7 @@
-/* Estilo prueba */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*  font-family: "Roboto", sans-serif; */
+
 body {
-    font-family: 'Roboto', sans-serif; /* Tipografía */
     margin: 20px;
     background-color: var(--background-color); /* variables CSS */
     color: var(--text-color); /* variables CSS */

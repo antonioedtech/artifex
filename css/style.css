@@ -52,7 +52,7 @@ footer {
 
 /* Colores */
 :root {
-    --background-color: rgb(248, 249, 250);
+    --background-color: rgba(12, 156, 101, 0.421);
     --text-color: rgb(73, 80, 87);
     --header-background: rgb(52, 58, 64);
     --header-text-color: rgb(255, 255, 255);

@@ -1,0 +1,43 @@
+header {
+    background-color: $color-bg-light-gray;
+    box-shadow: 0 2px 5px $color-bg-gray;
+    
+    .logo {
+        max-width: 150px;
+        height: auto;
+    }
+
+    nav {
+        ul {
+            li {
+                a {
+                    color: $font-color-dark-blue;
+                    text-decoration: none;
+                    font-weight: 500;
+                    transition: color 0.3s ease;
+
+                    &:hover {
+                        color: $color-brand-blue; 
+                    }
+                }
+            }
+        }
+    }
+
+
+    @media (min-width: 768px) {
+        .logo {
+            max-width: 200px;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+        
+        nav {
+            ul {
+                gap: 2rem !important; 
+            }
+        }
+    }
+}

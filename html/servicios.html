@@ -7,34 +7,73 @@
     <meta name="keywords" content="diseño de logotipo, línea gráfica, identidad visual, landing pages, desarrollo web, servicios creativos, branding digital, diseño personalizado">
     <title>Artifex | Servicios de diseño de logotipos, identidad visual y páginas web</title>
     <link rel="stylesheet" href="../css/main.css">
-
     <!-- Enlace a Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <header>
-        <img src="../assets/img/logoprueba.png" alt="Artifex - Expertos en branding y diseño web">
-        <h1>Artifex - Agencia de Diseño Digital</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./cotizar.html">Cotizar</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Servicios</h2>
-            <ul>
-                <li>Diseño de logotipo</li>
-                <li>Identidad visual y línea gráfica</li>
-                <li>Desarrollo de página o sitio web</li>
-            </ul>
-    </main>
-    <footer id="footer-contacto">
-        <p>&copy; 2025 Artifex. Todos los derechos reservados.</p>
-    </footer>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>    
+    <div class="container-fluid">
+        <header class="row align-items-center py-4">
+            <div class="col-12 col-md-3 text-center text-md-start">
+                <img src="../assets/img/logoprueba.png" alt="Artifex" class="img-fluid logo">
+            </div>
+            <div class="col-12 col-md-4 text-center text-md-start">
+                <h1 class="d-none d-md-block">Artifex - Agencia de Diseño Digital</h1>
+            </div>
+            <div class="col-12 col-md-5">
+                <nav>
+                    <ul class="d-flex justify-content-around justify-content-md-end list-unstyled mb-0 gap-3">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./nosotros.html">Nosotros</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                        <li><a href="./cotizar.html">Cotizar</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="servicios-page" class="row py-5 justify-content-center">
+                 <div class="col-12 text-center">
+                      <h2 class="display-4 fw-bold">Nuestros Servicios</h2>
+                      <p class="lead mt-3">Ofrecemos soluciones de diseño y desarrollo web para potenciar tu marca y conectar con tu audiencia. Cada proyecto es una oportunidad para crear algo único.</p>
+                 </div>
+            </section>
+            <div class="row row-cols-1 row-cols-md-3 g-4 pb-5 justify-content-center">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <i class="bi bi-vector-pen fs-1 text-primary"></i>
+                            <h3 class="card-title fw-bold mt-3">Diseño de Logotipo</h3>
+                            <p class="card-text">Creamos identidades visuales únicas que capturan la esencia de tu marca y la hacen destacar en cualquier plataforma.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow">
+                         <div class="card-body text-center">
+                             <i class="bi bi-gem fs-1 text-primary"></i>
+                             <h3 class="card-title fw-bold mt-3">Identidad Visual</h3>
+                             <p class="card-text">Desarrollamos una línea gráfica coherente con paletas de color, tipografías y elementos que unifican tu marca.</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="col">
+                     <div class="card h-100 border-0 shadow">
+                         <div class="card-body text-center">
+                             <i class="bi bi-code-slash fs-1 text-primary"></i>
+                             <h3 class="card-title fw-bold mt-3">Desarrollo Web</h3>
+                             <p class="card-text">Construimos sitios web modernos, responsivos y optimizados para el rendimiento, con una experiencia de usuario excepcional.</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+        </main>
+        <footer id="footer-contacto" class="row">
+            <div class="col-12 text-center py-3">
+                <p class="mb-0">&copy; 2025 Artifex. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script> 
 </body>
 </html>

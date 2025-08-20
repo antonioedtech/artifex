@@ -1,0 +1,111 @@
+#nosotros {
+    background-color: $color-bg-light-gray; 
+    
+    h2 {
+        color: $font-color-dark-blue; 
+        font-size: 2.5rem;
+        font-weight: 700; 
+    }
+
+    p {
+        color: $font-color-dark-blue;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+}
+
+#servicios {
+    background-color: $color-bg-light-gray;
+    
+    h2 {
+        color: $color-brand-aqua;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            background-color: $color-bg-gray;
+            padding: 1.5rem 2rem;
+            border-radius: 8px;
+            text-align: center;
+            flex-basis: 300px; 
+
+            font-weight: 500;
+            color: $font-color-dark-blue;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+
+            &:hover {
+                transform: translateY(-5px); 
+                background-color: $color-brand-blue;
+                color: $color-brand-aqua;
+            }
+        }
+    }
+}
+
+#servicios-page {
+    background-color: $color-bg-light-gray;
+    
+    h2 {
+        color: $font-color-dark-blue; 
+        font-size: 2.5rem;
+        font-weight: 700; 
+    }
+
+    p {
+        color: $font-color-dark-blue;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+}
+
+.card {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    .card-body {
+        padding: 2rem;
+    }
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba($font-color-dark-blue, 0.15);
+    }
+}
+
+#contacto-page {
+    background-color: $color-bg-light-gray;
+    
+    h2 {
+        color: $font-color-dark-blue; 
+        font-size: 2.5rem;
+        font-weight: 700; 
+    }
+
+    p {
+        color: $font-color-dark-blue;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+}
+
+#cotizar-page {
+    background-color: $color-bg-light-gray;
+    
+    h2 {
+        color: $font-color-dark-blue; 
+        font-size: 2.5rem;
+        font-weight: 700; 
+    }
+
+    p {
+        color: $font-color-dark-blue;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+}

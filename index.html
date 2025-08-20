@@ -9,44 +9,54 @@
     <link rel="stylesheet" href="./css/main.css">
     <!-- Enlace a Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <!-- Encabezado -->
-    <header>
-        <img src="./assets/img/logoprueba.png" alt="Artifex - Expertos en branding y diseño web">
-        <h1>Artifex - Agencia de Diseño Digital</h1>
-        <nav aria-label="Navegación principal">
-            <ul> 
-                <li><a href="./html/nosotros.html">Nosotros</a></li>
-                <li><a href="./html/servicios.html">Servicios</a></li>
-                <li><a href="./html/contacto.html">Contacto</a></li>
-                <li><a href="./html/cotizar.html">Cotizar</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container-fluid">
+        <header class="row align-items-center py-4">
+            <div class="col-12 col-md-3 text-center text-md-start">
+                <img src="./assets/img/logoprueba.png" alt="Artifex" class="img-fluid logo">
+            </div>
+            <div class="col-12 col-md-4 text-center text-md-start">
+                <h1 class="d-none d-md-block">Artifex - Agencia de Diseño Digital</h1>
+            </div>    
+            <div class="col-12 col-md-5">
+               <nav>
+                   <ul class="d-flex justify-content-around justify-content-md-end list-unstyled mb-0 gap-3">
+                       <li><a href="./html/nosotros.html">Nosotros</a></li>
+                       <li><a href="./html/servicios.html">Servicios</a></li>
+                       <li><a href="./html/contacto.html">Contacto</a></li>
+                       <li><a href="./html/cotizar.html">Cotizar</a></li>
+                   </ul>
+                </nav>
+            </div>
+        </header>
 <!-- Página principal -->
     <main>
-        <section id="nosotros"> 
-            <h2>Nosotros</h2> 
-            <p>Somos una agencia de diseño digital apasionada por transformar ideas en experiencias visuales impactantes. Nuestra misión es ayudar a las marcas a destacar en un mundo digital en constante evolución.</p>
+        <section id="nosotros" class="row py-5 justify-content-center"> 
+           <div class="col-12 col-md-8 text-center"></div>    
+              <h2>Nosotros</h2> 
+                  <p class="lead mt-3">Somos una agencia de diseño digital apasionada por transformar ideas en experiencias visuales impactantes. Nuestra misión es ayudar a las marcas a destacar en un mundo digital en constante evolución.</p>
+            </div>
         </section>
 
-        <section id="servicios">
-            <h2>Servicios</h2>
-             <ul>
-                <li>Diseño de logotipo</li>
-                <li>Identidad visual y línea gráfica</li>
-                <li>Desarrollo de página o sitio web</li>
-             </ul>
+        <section id="servicios" class="row py-5 justify-content-center">
+            <div class="col-12 col-md-8 text-center">
+                 <h2>Servicios</h2>
+                 <ul class="list-unstyled d-flex flex-wrap justify-content-center gap-3 mt-4">
+                     <li>Diseño de logotipo</li>
+                     <li>Identidad visual y línea gráfica</li>
+                     <li>Desarrollo de página o sitio web</li>
+                 </ul>
+            </div>
         </section>
     </main>
-    <!-- aside reservado para contenido adicional o promociones -->
-    <aside>
-        
-    </aside>
+
     <!-- Pie de página -->
-    <footer id="footer-contacto">
-        <p>&copy; 2025 Artifex. Todos los derechos reservados.</p>
+    <footer id="footer-contacto" class="row">
+        <div class="col-12 text-center py-3">
+            <p class="mb-0">&copy; 2025 Artifex. Todos los derechos reservados.</p>
+        </div>
     </footer>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
